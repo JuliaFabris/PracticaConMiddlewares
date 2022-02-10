@@ -1,0 +1,31 @@
+{
+  "name": "baseapphtml",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./src/bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.1",
+    "normalize.css": "^8.0.1"
+  },
+  "description": "Como programadores es importante que aprendamos a utilizar middlewares ya que nos\r permiten diseñar aplicaciones con mayor eficiencia. En esta oportunidad, vamos a\r desarrollar un middleware que nos permita llevar un registro sobre el acceso a diferentes\r rutas de nuestro proyecto, como un log para identificar a qué rutas se accedieron.\r Además, vamos a ver cómo podemos codificar un middleware para restringir el ingreso a\r una determinada URL.",
+  "main": "src/app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliaFabris/PracticaConMiddlewares.git"
+  },
+  "author": "Julia Fabris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuliaFabris/PracticaConMiddlewares/issues"
+  },
+  "homepage": "https://github.com/JuliaFabris/PracticaConMiddlewares#readme"
+}
